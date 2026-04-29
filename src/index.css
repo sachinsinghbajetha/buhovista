@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary: #168d91;
+  --font-poppins: "Poppins", sans-serif;
+  --font-dmsans: "DMSans", sans-serif;
+  --font-lora: "Lora", serif;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-lora;
+  }
+  p,
+  a,
+  button {
+    @apply font-dmsans;
+  }
+}
