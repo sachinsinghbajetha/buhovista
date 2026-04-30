@@ -37,13 +37,13 @@ const Hero = () => {
         y: 20,
         filter: "blur(10px)",
         stagger: 0.07,
-        ease: "easeout",
+        ease: "power2.out",
       }).from(
         descriptionRef.current,
         {
           opacity: 0,
           y: 20,
-          ease: "easeout",
+          ease: "power2.out",
         },
         "-=.7",
       );
@@ -62,7 +62,7 @@ const Hero = () => {
     >
       <div
         ref={laptopRef}
-        className="absolute lg:top-[30%] xl:top-[35%] md:right-[-90%] lg:right-[-70%] xl:right-[-40%] h-full rotate-[10deg] hidden lg:block"
+        className="absolute lg:top-[40%] md:right-[-90%] lg:right-[-80%] xl:right-[-40%] h-full rotate-[10deg] hidden lg:block"
       >
         <img
           src="/images/laptop.png"
@@ -81,7 +81,7 @@ const Hero = () => {
 
           <h1
             ref={titleRef}
-            className="text-5xl leading-14 font-bold font-lora text-[#1A1A1A] mb-6"
+            className="text-3xl lg:text-5xl lg:leading-14 leading-normal font-bold text-[#1A1A1A] mb-6"
           >
             Your School Already Has <br className="hidden lg:block" />
             a System. <br />
@@ -90,23 +90,23 @@ const Hero = () => {
 
           <p
             ref={descriptionRef}
-            className="text-sm leading-6 text-[#6e6e6e] mb-10 max-w-[28rem] font-medium font-dmsans"
+            className="text-sm leading-normal lg:leading-6 text-[#6e6e6e] mb-10 max-w-md font-medium"
           >
             Fix WhatsApp chaos, reduce teacher workload, and get real visibility
             into student performance — without replacing your existing ERP.
           </p>
 
-          <div className="flex flex-wrap flex-row gap-4 mb-16 text-sm">
-            <button className="px-5 py-1 bg-primary/80 hover:bg-primary/90 text-white font-semibold rounded-full transition-colors">
+          <div className="flex flex-wrap flex-row gap-4 mb-16 text-sm items-center">
+            <button className="cursor-pointer px-5 min-h-[35px] bg-primary/80 hover:bg-primary/90 text-white font-semibold rounded-full transition-colors">
               Book a Demo
             </button>
-            <button className="px-5 py-1 bg-white border hover:border-gray-400 text-[#374151] font-semibold rounded-full transition-colors flex items-center justify-center gap-2">
+            <button className="cursor-pointer px-5 min-h-[35px] bg-white border hover:border-gray-400 text-[#374151] font-medium rounded-full transition-colors flex items-center justify-center gap-2">
               See How It Works
-              <span className="text-lg font-normal">&gt;</span>
+              <span className="mb-0.5 text-lg">&gt;</span>
             </button>
           </div>
 
-          <div className="flex items-end gap-2 text-[#6B7280] text-sm font-medium font-dmsans">
+          <div className="flex items-end gap-2 text-[#6B7280] text-sm font-medium">
             <span className="text-base">🏫</span>
             <p>Pilot programs open · Working with schools across NCR</p>
           </div>

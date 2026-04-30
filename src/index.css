@@ -18,12 +18,30 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora-Italic.ttf");
+  font-style: italic;
+  font-display: swap;
+}
 
 @theme {
   --color-primary: #168d91;
+  --color-primary-2: #23c9cf;
   --font-poppins: "Poppins", sans-serif;
   --font-dmsans: "DMSans", sans-serif;
   --font-lora: "Lora", serif;
+
+  --animate-marquee: marquee 10s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
 }
 
 @layer base {
