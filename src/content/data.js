@@ -44,3 +44,45 @@ export const whatWeSolveCardContent = [
     desc: "Send updates, results, and fee reminders instantly. Keep parents engaged and informed with zero extra effort.",
   },
 ];
+export const meetBuhoData = [
+  {
+    id: "admins",
+    label: "Admins",
+    features: [
+      "Real-time visibility into school operations",
+      "Automated fee tracking and collection reminders",
+      "One-click report card and certificate generation",
+      "Secure, structured communication with staff and parents",
+    ],
+  },
+  {
+    id: "teachers",
+    label: "Teachers",
+    features: [
+      "Generate exams and worksheets in minutes",
+      "Automated attendance and grade entry",
+      "Easy communication with parents without sharing phone numbers",
+      "Track student progress trends with AI insights",
+    ],
+  },
+  {
+    id: "students",
+    label: "Students",
+    features: [
+      "Instant access to worksheets and study material",
+      "Track performance and identify areas of improvement",
+      "Direct channel for queries and doubt resolution",
+      "Automated reminders for exams and deadlines",
+    ],
+  },
+  {
+    id: "parents",
+    label: "Parents",
+    features: [
+      "Raise concerns through an official, structured channel",
+      "Get routed to the right authority — no more hunting for contacts",
+      "Stay informed about your child's progress without disturbing teachers",
+      "Transparent fee and attendance visibility in one place",
+    ],
+  },
+];
