@@ -36,6 +36,7 @@ const GetStarted = () => {
 
   return (
     <section
+    id="getStarted"
       className="lg:py-14 py-8"
       style={{
         background: "linear-gradient(#387275 0%,#060e29 100%)",

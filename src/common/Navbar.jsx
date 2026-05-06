@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-8">
           {/* Logo Placeholder mimicking the shape */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 cursor-pointer">
             <img src="/logo.svg" alt="logo" className="w-[28px] h-[23px]" />
             <span className="text-sm font-medium font-poppins leading-normal lg:leading-4">
               BuhoVista
@@ -18,25 +18,25 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex items-center gap-8">
             <a
-              href="#"
+              href="#ready"
               className="text-gray-600 hover:text-dark font-medium text-xs leading-normal lg:leading-3.5 transition-colors"
             >
               Solutions
             </a>
             <a
-              href="#"
+              href="#getStarted"
               className="text-gray-600 hover:text-dark font-medium text-xs leading-normal lg:leading-3.5 transition-colors"
             >
               Buho AI
             </a>
             <a
-              href="#"
+              href="#whatWeSolve"
               className="text-gray-600 hover:text-dark font-medium text-xs leading-normal lg:leading-3.5 transition-colors"
             >
               Pilot
             </a>
             <a
-              href="#"
+              href="#meetBuho"
               className="text-gray-600 hover:text-dark font-medium text-xs leading-normal lg:leading-3.5 transition-colors"
             >
               About

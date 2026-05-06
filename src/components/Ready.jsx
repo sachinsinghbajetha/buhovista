@@ -34,6 +34,7 @@ const Ready = () => {
 
   return (
     <section
+    id="ready"
       className="lg:py-14 py-8"
       style={{
         background: "radial-gradient(53% 64%,#353557 0%,#1e1e29 100%)",

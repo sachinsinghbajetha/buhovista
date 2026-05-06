@@ -126,6 +126,7 @@ const MeetBuho = () => {
 
   return (
     <section
+    id="meetBuho"
       ref={sectionRef}
       className="bg-[#1f1f1f] py-16 lg:py-20 px-6 lg:px-24 overflow-hidden"
     >

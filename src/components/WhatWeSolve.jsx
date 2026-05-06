@@ -56,7 +56,7 @@ const WhatWeSolve = () => {
   }, []);
 
   return (
-    <section className="lg:py-14 py-8 bg-[#faf7f2] overflow-hidden relative">
+    <section id="whatWeSolve" className="lg:py-14 py-8 bg-[#faf7f2] overflow-hidden relative">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <p className="uppercase text-primary mb-4 font-bold text-xs lg:leading-5 leading-normal tracking-widest">
           - what we solve
