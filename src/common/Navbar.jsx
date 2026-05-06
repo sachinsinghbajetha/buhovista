@@ -43,6 +43,10 @@ const Navbar = () => {
             </a>
           </div>
         </div>
+
+        <button className="px-4 py-2 font-dmsans bg-black text-white rounded-full text-xs leading-normal lg:leading-3.5 cursor-pointer">
+          Book Demo
+        </button>
       </div>
     </nav>
   );

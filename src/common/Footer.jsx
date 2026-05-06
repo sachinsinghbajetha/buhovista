@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
 
         {/* Tagline - Right Aligned */}
-        <div className="flex flex-col items-start md:items-end text-left md:text-right">
+        <div className="flex flex-col items-start md:items-end text-center md:text-right">
           <h3 className="text-xl font-lora max-w-[340px] leading-[1.4] text-white">
             Transforming School Operations with Practical Technology
           </h3>

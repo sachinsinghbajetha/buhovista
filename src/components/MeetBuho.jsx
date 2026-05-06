@@ -159,15 +159,15 @@ const MeetBuho = () => {
         {/* Right Content */}
         <div className="flex flex-col gap-8 mt-8 lg:mt-0">
           {/* Nav Tabs */}
-          <div className="inline-flex flex-wrap p-1.5 gap-1 relative z-10 w-fit">
+          <div className="grid grid-cols-3 md:grid-cols-4 p-1.5 gap-1 relative z-10 w-fit">
             {meetBuhoData.map((tab, index) => (
               <button
                 key={tab.id}
                 // onClick={() => setActiveTab(index)}
-                className={`tab-button grow relative px-6 py-2.5 rounded-full text-sm font-semibold transition-colors duration-300 overflow-hidden ${
+                className={`tab-button relative px-6 py-2.5 rounded-full text-sm font-semibold transition-colors duration-300 overflow-hidden ${
                   activeTab === index
                     ? "bg-[#168d91] text-white shadow-md"
-                    : "text-gray-400 hover:text-gray-200 bg-[#333] border border-[#535554]"
+                    : "text-gray-400 bg-[#333] border border-[#535554]"
                 }`}
               >
                 <span className="relative z-10">{tab.label}</span>
